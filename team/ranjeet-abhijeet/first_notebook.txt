@@ -1,0 +1,54 @@
+Data Exploration Report — UIDAI Data Hackathon
+1️⃣ Environment Setup
+
+The first step in any data project is setting up a proper environment.
+
+Python 3.12 was installed on the system.
+
+Jupyter Notebook was installed to provide an interactive workspace for coding, analysis, and visualization.
+
+Jupyter Notebook allows combining code, results, and explanations in a single document, making it ideal for team collaboration.
+
+2️⃣ Dataset Loading
+
+The dataset was stored in a specific folder on the system.
+
+From the multiple files in the dataset folder, only one CSV file (demographics.csv) was selected for analysis.
+
+Loading the correct dataset ensures the analysis focuses on relevant data and avoids redundancy.
+
+Checking the path and verifying the existence of the dataset prevents runtime errors when reading the data.
+
+3️⃣ Initial Data Exploration
+
+Once the dataset was loaded, initial exploration was performed to understand its structure:
+
+Columns: Identifying all the columns helped understand what data attributes are available.
+
+First few rows: Inspecting the first few rows provides an overview of the data values, formatting, and general quality.
+
+Missing values: Checking for missing values ensures data completeness and identifies columns that may need cleaning.
+
+Data types: Understanding whether a column is numeric, categorical, or textual guides further analysis and appropriate preprocessing steps.
+
+Summary statistics: Numeric columns were analyzed to observe minimum, maximum, mean, and standard deviation values, which help in detecting outliers or anomalies.
+
+4️⃣ Displaying Full Data
+
+For small datasets, displaying all rows and columns is useful to manually inspect each record.
+
+This helps identify errors, inconsistencies, or unusual patterns that might not be visible in truncated views.
+
+It is particularly helpful for categorical and textual columns where individual values matter.
+
+5️⃣ Unique Values per Column
+
+Analyzing unique values provides insights into the variability of data in each column:
+
+Categorical columns: Counting unique values shows how many categories exist (e.g., gender might have 2 categories: male and female).
+
+Numeric columns: Counting unique values helps detect repeated data or potential IDs.
+
+Missing values: Knowing missing counts alongside unique values allows for better decisions on data cleaning.
+
+This step is essential for understanding data distribution and planning preprocessing or feature engineering.
