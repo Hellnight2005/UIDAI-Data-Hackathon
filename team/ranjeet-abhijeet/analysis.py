@@ -83,6 +83,23 @@ plt.tight_layout()
 plt.savefig('visual_3_heatmap.png')
 print("Generated: visual_3_heatmap.png")
 
+# --- VISUAL 5: Family Unit Correlation (Scatter Plot) ---
+plt.figure(figsize=(10, 8))
+sns.regplot(data=df, x='demo_age_above_17', y='demo_age_5_17', 
+            scatter_kws={'alpha':0.5, 's':60, 'color':'#005a8d'}, 
+            line_kws={'color':'#f37021', 'lw':3})
+plt.title('Insight 3: Correlation between Adult and Child Updates', fontsize=14, fontweight='bold')
+plt.xlabel('Adult Updates (17+)', fontweight='bold')
+plt.ylabel('Child Updates (5-17)', fontweight='bold')
+# Calculate correlation
+corr_value = df['demo_age_above_17'].corr(df['demo_age_5_17'])
+plt.text(df['demo_age_above_17'].max()*0.05, df['demo_age_5_17'].max()*0.9, 
+         f'Correlation (r) = {corr_value:.3f}', 
+         bbox=dict(facecolor='white', alpha=0.8), fontsize=12, fontweight='bold')
+plt.tight_layout()
+plt.savefig('visual_5_correlation.png')
+print("5. Generated: visual_5_correlation.png (Scatter Plot)")
+
 # ---------------------------------------------------------
 # D. FINAL BONUS: The Pareto Chart (Resource Optimization)
 # ---------------------------------------------------------
