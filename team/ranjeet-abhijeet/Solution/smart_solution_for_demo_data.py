@@ -4,7 +4,9 @@ import numpy as np
 # ==========================================
 # ⚙️ CONFIGURATION & DATA LOADING
 # ==========================================
-FILE_PATH = 'cleaned_monthly_uidai_data.csv'
+FILE_PATH = '../dataset/cleaned_monthly_enrollment_data.csv'
+
+
 
 print("🔄 Initializing Aadhaar Smart-Flow System...")
 
