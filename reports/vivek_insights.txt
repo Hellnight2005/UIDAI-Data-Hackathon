@@ -1,0 +1,31 @@
+Step 1: Dropping the state and district column since it has no use
+
+Step 2: Calculating the important values 
+Aggregating the value by pincode and adding both the biometric values
+
+Insight 1 : Which pincode generate the most biometric 
+Analysis of top 10 biometric active pincodes shows strong geographic concentration of demand. Children aged 5-17 contribute to majority of biometric transaction in most high volume areas, with child share exceeding 60% in several pincodes. A smaller subset of pincodes is adult dominated , likely reflecting employement or migration patterns. These finding highlights the need for targeted operational planning and age specific service stratergies.
+
+Insight 2 : Age-group dominance per pincode 
+
+
+
+Insight 3: Unusual pincodes
+Insight 4: Time trends
+Insight 5: Child-heavy v/s adult heavy regions
+Insight 6: Coorelation between age groups 
+Insight 7: Rank pincode by efficiency
+
+
+
+
+Things to do :
+1. Improve readabililty of data
+2. Compare age groups properly
+3. Aggregrate the data
+4. Trend over time
+5. Outlier Detection
+6. Statistical analysis
+
+By Biometric data i can get an rough idea of how much dense population is there in a particular region 
+also the birth rate population
